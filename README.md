@@ -3,7 +3,6 @@ Herramienta de escritorio para gestionar la depuración inalámbrica ADB en disp
 
 * @author Aldo Ocotoxtle Coyotl - aldo.ocotoxtle@gmail.com
 * @version 1.0.12
-==================================================================
 
 Permite:
   - Emparejar dispositivos escaneando un QR generado por el script
@@ -39,7 +38,10 @@ IDENTIFICACIÓN DE DISPOSITIVOS
 DEPENDENCIAS
 ------------
   pip install qrcode zeroconf pillow
+  
   Opcional: scrcpy (https://github.com/Genymobile/scrcpy) para proyección
+
+  Se tiene que tener el scrcpy configurado en las variables de entorno
 
 COMPATIBILIDAD
 --------------
